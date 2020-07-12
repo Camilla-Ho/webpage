@@ -26,10 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-hr {
-  width: 100px;
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -48,13 +44,13 @@ hr {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  background: #d0d2e5;
+  background: #cc1616;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #d0d2e5;
+  background: #e72323;
   color: #fff;
 }
 
@@ -435,11 +431,11 @@ hr {
 #section-top {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  
   background-size: cover;
   position: relative;
 }
-
+// background: url("../../img/hero-bg.jpg") top center;
 #section-top:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
@@ -592,13 +588,6 @@ section {
   margin-bottom: 0;
 }
 
-.about-bg {
-  background-color: #d0d2e5;
-}
-
-.text-w{
-  color: #FFFFFF;
-}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -619,11 +608,6 @@ section {
   color: #ed5b5b;
 }
 
-.why-us .box h1 {
-  font-size: 100px;
-  color: #191919;
-}
-
 .why-us .box h4 {
   font-size: 24px;
   font-weight: 600;
@@ -633,7 +617,7 @@ section {
 }
 
 .why-us .box p {
-  color: #494B57;
+  color: #aaaaaa;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -645,7 +629,7 @@ section {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover h1 {
+.why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
 }
 
@@ -757,29 +741,15 @@ section {
   color: #fff;
 }
 
-.text-border {
-  border-style:solid;
-  width: auto;
-}
-
-.m-20 {
-  margin: 50px;
-}
-
-.m-20 span.h3{
-  color: #ff8535;
-}
-
-
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+
   background-size: cover;
   padding: 120px 0;
 }
+//   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/cta-bg.jpg") fixed center center;
 
 .cta h3 {
   color: #fff;
@@ -1031,12 +1001,8 @@ section {
 }
 
 .section-bg {
-    background-color: #494B57;
-    color: #fff;
-}
-
-.section-bg-2 {
     background-color: #A47E73;
+    background-color: #494B57;
     color: #fff;
 }
 
@@ -1364,7 +1330,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #494B57;
+  background: #191919;
   color: #fff;
   border-top: 4px solid #cc1616;
   text-align: center;
@@ -1500,7 +1466,7 @@ section {
 }
 
 #footer .credits a {
-  color: #ff8535;
+  color: #e82d2d;
 }
 
 @media (max-width: 575px) {
